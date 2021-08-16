@@ -57,7 +57,7 @@ const Swipe = (props) => {
         onChangeIndex={index => handleChange(index)}
       >
         <LivingTV myIo = {myIo}/>
-        <LivingAirConditionar />
+        <LivingAirConditionar myIo = {myIo} />
       </SwipeableViews>
     </React.Fragment>
   );
