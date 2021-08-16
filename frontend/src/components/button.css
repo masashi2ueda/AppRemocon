@@ -1,0 +1,37 @@
+.roundButton {
+    background-color: #ffe;
+    border: solid 1px #cc3;
+    border-radius: 4px;
+    margin: 30px 4px;
+    padding: 4px 20px;
+    position: relative;
+}
+
+.content {
+    width: 400px;
+    height: 100px;
+    background-color: #00ffff;
+  }
+  
+  .inner {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .row-buttons {
+    display: flex;
+    justify-content: center;
+  
+    > *:nth-child(n+2) {
+      margin-left: 20px;
+    }
+  }
+  
+  .button {
+    padding: 8px 20px;
+    border: solid 2px #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+  }
